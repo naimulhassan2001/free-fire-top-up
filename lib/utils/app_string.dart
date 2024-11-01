@@ -62,6 +62,12 @@ class AppString {
   static const String privacyPolicy = "Privacy Policy";
   static const String deleteAccount = "Delete account";
   static const String termsOfServices = "Terms of Services";
-
+  static const String topUpDetails = "Diamond Topup এ ২৪ ঘন্টাই টপআপ চালু থাকে....!!! যেকোনো সমস্যায় আমাদের টেলিগ্রাম এ মেসেজ দিন......... বিঃদ্রঃ মা-বাবা বা ফ্যামিলির কারো ফোন থেকে টাকা চুরি করে কেউ টপআপ করবেন না!";
+  static const String freFire = "FREE FIRE";
+  static const String latestOrders = "Latest Orders";
+  static const String myOrders = "My Orders";
+  static const String addMoney = "Add Money";
+  static const String amount = "Amount";
+  static const String tutorial = "Tutorial";
 
 }

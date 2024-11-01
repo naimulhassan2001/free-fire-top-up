@@ -86,9 +86,7 @@ class ChatListScreen extends StatelessWidget {
             ),
         },
       ),
-      bottomNavigationBar: const CommonBottomNavBar(
-        currentIndex: 2,
-      ),
+
     );
   }
 }

@@ -1,4 +1,6 @@
 import 'package:get/get.dart';
+import 'package:untitled/view/screen/home/home_screen.dart';
+import 'package:untitled/view/screen/main_screen.dart';
 
 import '../view/screen/common_screen/auth/change_password/change_password_screen.dart';
 import '../view/screen/common_screen/auth/forgot password/create_password.dart';
@@ -39,6 +41,7 @@ class AppRoutes {
   static const String privacyPolicy = "/privacy_policy_screen.dart";
   static const String termsOfServices = "/terms_of_services_screen.dart";
   static const String setting = "/setting_screen.dart";
+  static const String mainScreen = "/main_screen.dart";
 
   static List<GetPage> routes = [
     GetPage(
@@ -113,5 +116,11 @@ class AppRoutes {
         name: setting,
         page: () => SettingScreen(),
         transition: Transition.rightToLeftWithFade),
+     GetPage(
+        name: mainScreen,
+        page: () => MainScreen(),
+        transition: Transition.rightToLeftWithFade),
+
+
   ];
 }
